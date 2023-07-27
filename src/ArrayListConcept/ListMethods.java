@@ -33,5 +33,19 @@ public class ListMethods {
         System.out.println(listString);
         System.out.println(listString.get(0));
 
+        ArrayList<String> listOne = new ArrayList<>();
+        listOne.add("1");
+        listOne.add("2");
+        listOne.add("3");
+        listOne.add("4");
+        ArrayList<String> listTwo = new ArrayList<>();
+        listTwo.add("A");
+        listTwo.add("B");
+        listTwo.add("C");
+        listTwo.add("D");
+        Collections.copy(listTwo, listOne);
+        System.out.println(listTwo);
+        Collections.shuffle(listOne);
+        System.out.println(listOne);
     }
 }
