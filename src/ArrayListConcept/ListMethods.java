@@ -47,5 +47,28 @@ public class ListMethods {
         System.out.println(listTwo);
         Collections.shuffle(listOne);
         System.out.println(listOne);
+        Collections.reverse(listString);
+        System.out.println(listString);
+        List<String> newList = listString.subList(0,3);
+        System.out.println(newList);
+
+        ArrayList<String> c3 = new ArrayList<>();
+        for( String e : listOne){
+            c3.add(listTwo.contains(e) ? "Yes" : "No");
+        }
+        System.out.println(c3);
+        Collections.swap(listTwo, 0, 2);
+        for(String item : listTwo){
+            System.out.println(item);
+        }
+        ArrayList<String> a = new ArrayList<String>();
+        a.addAll(listOne);
+        a.addAll(listTwo);
+        System.out.println(a);
+        ArrayList<String> clone = (ArrayList<String>) a.clone();
+        System.out.println(clone);
+        clone.removeAll(clone);
+        System.out.println(clone);
+        System.out.println(clone.isEmpty());
     }
 }
