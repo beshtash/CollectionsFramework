@@ -20,3 +20,4 @@ However, it might be sometimes hard to find files on a Linux filesystem especial
 There are two commands that can help you achieve your goal : find and locate.
 
 In this tutorial, we are going to see how to use those commands effectively and how they can be tuned to achieve what we are looking for.
+=========================================================================================================================================
