@@ -4,6 +4,7 @@ This is added line for demo.
 ===================================
 
 
+
 Counting hidden files with tree
 In some cases, you may want to count hidden files on your system.
 
@@ -21,3 +22,6 @@ There are two commands that can help you achieve your goal : find and locate.
 
 In this tutorial, we are going to see how to use those commands effectively and how they can be tuned to achieve what we are looking for.
 =========================================================================================================================================
+=======
+This is the difference.
+
